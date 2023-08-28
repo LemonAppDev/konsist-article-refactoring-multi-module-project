@@ -9,6 +9,7 @@ class UseCaseKonsistTest {
         Konsist
             .scopeFromProduction()
             .classes()
+            .withNameEndingWith("UseCase")
             .assert {
                 val hasSingleInvokeMethod = it.containsFunction { function ->
                     function.name == "invoke" && function.hasPublicOrDefaultModifier

@@ -13,10 +13,13 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.lemonappdev:konsist:0.10.0")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation(kotlin("stdlib-jdk8"))
+
+    // Konsist
+    // See Konsist Getting Started https://docs.konsist.lemonappdev.com/getting-started/gettingstarted
+    testImplementation("com.lemonappdev:konsist:0.10.0")
 }
 
 tasks.test {
