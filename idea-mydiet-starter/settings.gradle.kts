@@ -9,7 +9,7 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
 
-rootProject.name = "mydiet - starter"
+rootProject.name = "mydiet-starter"
 include("app")
 include("featureCaloryCalculator")
 include("featureMealPlanner")
