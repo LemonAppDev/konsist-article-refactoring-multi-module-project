@@ -1,4 +1,4 @@
-package com.mydiet.groceryListGenerator.domain.usecase
+package com.mydiet.grocerylistgenerator.domain.usecase
 
 class CategorizeGroceryItemsUseCase {
     fun invoke() {

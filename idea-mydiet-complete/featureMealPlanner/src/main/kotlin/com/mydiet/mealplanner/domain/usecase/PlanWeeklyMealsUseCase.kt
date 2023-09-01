@@ -1,4 +1,4 @@
-package com.mydiet.mealPlanner.domain.usecase
+package com.mydiet.mealplanner.domain.usecase
 
 class PlanWeeklyMealsUseCase {
     fun invoke() {
