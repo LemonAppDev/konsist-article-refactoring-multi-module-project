@@ -19,7 +19,7 @@ dependencies {
 
     // Konsist
     // See Konsist Getting Started https://docs.konsist.lemonappdev.com/getting-started/gettingstarted
-    testImplementation("com.lemonappdev:konsist:0.10.0")
+    testImplementation("com.lemonappdev:konsist:0.11.0")
 }
 
 tasks.test {
