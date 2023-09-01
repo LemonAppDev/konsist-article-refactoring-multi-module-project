@@ -35,9 +35,6 @@ class UseCaseKonsistTest {
                     .lowercase()
                     .removePrefix("feature")
 
-                val expected = "..${featurePackageName}.domain.usecase"
-                val actual = it.packagee?.fullyQualifiedName
-
                 it.resideInPackage("..${featurePackageName}.domain.usecase..")
             }
     }
